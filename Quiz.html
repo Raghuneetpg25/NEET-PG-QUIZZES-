@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NEET PG Quiz</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1, h2, h3 { color: #2c3e50; }
+    .subject { margin-top: 30px; }
+    .question { margin-bottom: 20px; }
+    .question p { font-weight: bold; }
+    input[type="button"] { padding: 10px 20px; font-size: 16px; }
+    #result { margin-top: 20px; font-size: 20px; color: green; }
+  </style>
+</head>
+<body>
+  <h1>NEET PG Quiz</h1>
+  <form id="quizForm">
+
+    <!-- Pathology -->
+    <div class="subject">
+      <h2>Pathology</h2>
+      <!-- Q1 -->
+      <div class="question">
+        <p>1. A 45-year-old male presents with painless cervical lymphadenopathy. Lymph node biopsy shows classic Reed-Sternberg cells that are CD15 and CD30 positive. Which subtype of Hodgkin's lymphoma is most common?</p>
+        <label><input type="radio" name="q1" value="A"> A. Nodular sclerosis</label><br>
+        <label><input type="radio" name="q1" value="B"> B. Mixed cellularity</label><br>
+        <label><input type="radio" name="q1" value="C"> C. Lymphocyte predominant</label><br>
+        <label><input type="radio" name="q1" value="D"> D. Lymphocyte depleted</label>
+      </div>
+      <!-- Q2 -->
+      <div class="question">
+        <p>2. A patient with chronic ulcerative colitis undergoes a colonoscopic biopsy. Which histopathological feature is most characteristic of ulcerative colitis?</p>
+        <label><input type="radio" name="q2" value="A"> A. Transmural inflammation</label><br>
+        <label><input type="radio" name="q2" value="B"> B. Non-caseating granulomas</label><br>
+        <label><input type="radio" name="q2" value="C"> C. Pseudopolyps and crypt abscesses</label><br>
+        <label><input type="radio" name="q2" value="D"> D. Skip lesions</label>
+      </div>
+    </div>
+
+    <!-- Microbiology -->
+    <div class="subject">
+      <h2>Microbiology</h2>
+      <!-- Q3 -->
+      <div class="question">
+        <p>3. Which organism is most commonly associated with community-acquired pneumonia in children?</p>
+        <label><input type="radio" name="q3" value="A"> A. Streptococcus pneumoniae</label><br>
+        <label><input type="radio" name="q3" value="B"> B. Mycoplasma pneumoniae</label><br>
+        <label><input type="radio" name="q3" value="C"> C. Respiratory syncytial virus</label><br>
+        <label><input type="radio" name="q3" value="D"> D. Haemophilus influenzae</label>
+      </div>
+      <!-- Q4 -->
+      <div class="question">
+        <p>4. A 25-year-old patient with cystic fibrosis presents with pulmonary exacerbations. Sputum culture grows Burkholderia cepacia. This organism is best known for its association with:</p>
+        <label><input type="radio" name="q4" value="A"> A. Cystic fibrosis</label><br>
+        <label><input type="radio" name="q4" value="B"> B. Chronic obstructive pulmonary disease</label><br>
+        <label><input type="radio" name="q4" value="C"> C. Bronchiectasis secondary to tuberculosis</label><br>
+        <label><input type="radio" name="q4" value="D"> D. Nosocomial infections in the ICU</label>
+      </div>
+    </div>
+
+    <!-- Pharmacology -->
+    <div class="subject">
+      <h2>Pharmacology</h2>
+      <!-- Q5 -->
+      <div class="question">
+        <p>5. Which of the following drugs is a selective COX-2 inhibitor used for managing pain and inflammation?</p>
+        <label><input type="radio" name="q5" value="A"> A. Ibuprofen</label><br>
+        <label><input type="radio" name="q5" value="B"> B. Naproxen</label><br>
+        <label><input type="radio" name="q5" value="C"> C. Celecoxib</label><br>
+        <label><input type="radio" name="q5" value="D"> D. Diclofenac</label>
+      </div>
+      <!-- Q6 -->
+      <div class="question">
+        <p>6. In the management of status epilepticus, which drug is considered the first-line treatment?</p>
+        <label><input type="radio" name="q6" value="A"> A. Phenytoin</label><br>
+        <label><input type="radio" name="q6" value="B"> B. Diazepam</label><br>
+        <label><input type="radio" name="q6" value="C"> C. Carbamazepine</label><br>
+        <label><input type="radio" name="q6" value="D"> D. Valproate</label>
+      </div>
+    </div>
+
+    <!-- Medicine -->
+    <div class="subject">
+      <h2>Medicine</h2>
+      <!-- Q7 -->
+      <div class="question">
+        <p>7. A 60-year-old male with hypertension and diabetes presents with chest pain and dyspnea. ECG shows ST-segment elevation in leads V2-V4. What is the most likely diagnosis?</p>
+        <label><input type="radio" name="q7" value="A"> A. Anterior wall myocardial infarction</label><br>
+        <label><input type="radio" name="q7" value="B"> B. Inferior wall myocardial infarction</label><br>
+        <label><input type="radio" name="q7" value="C"> C. Lateral wall myocardial infarction</label><br>
+        <label><input type="radio" name="q7" value="D"> D. Posterior wall myocardial infarction</label>
+      </div>
+      <!-- Q8 -->
+      <div class="question">
+        <p>8. Which condition is the most common cause of heart failure in elderly patients?</p>
+        <label><input type="radio" name="q8" value="A"> A. Coronary artery disease</label><br>
+        <label><input type="radio" name="q8" value="B"> B. Hypertensive heart disease</label><br>
+        <label><input type="radio" name="q8" value="C"> C. Valvular heart disease</label><br>
+        <label><input type="radio" name="q8" value="D"> D. Dilated cardiomyopathy</label>
+      </div>
+    </div>
+
+    <!-- Anatomy -->
+    <div class="subject">
+      <h2>Anatomy</h2>
+      <!-- Q9 -->
+      <div class="question">
+        <p>9. Which structure passes through the foramen ovale?</p>
+        <label><input type="radio" name="q9" value="A"> A. Mandibular nerve (V3)</label><br>
+        <label><input type="radio" name="q9" value="B"> B. Maxillary nerve (V2)</label><br>
+        <label><input type="radio" name="q9" value="C"> C. Vagus nerve</label><br>
+        <label><input type="radio" name="q9" value="D"> D. Accessory nerve</label>
+      </div>
+      <!-- Q10 -->
+      <div class="question">
+        <p>10. The Circle of Willis is primarily formed by the anastomosis of which arteries?</p>
+        <label><input type="radio" name="q10" value="A"> A. Internal carotid and vertebral arteries</label><br>
+        <label><input type="radio" name="q10" value="B"> B. External carotid arteries</label><br>
+        <label><input type="radio" name="q10" value="C"> C. Basilar and middle cerebral arteries</label><br>
+        <label><input type="radio" name="q10" value="D"> D. Anterior cerebral and posterior cerebral arteries</label>
+      </div>
+    </div>
+
+    <!-- Physiology -->
+    <div class="subject">
+      <h2>Physiology</h2>
+      <!-- Q11 -->
+      <div class="question">
+        <p>11. Which of the following factors does NOT directly influence the glomerular filtration rate (GFR)?</p>
+        <label><input type="radio" name="q11" value="A"> A. Hydrostatic pressure in glomerular capillaries</label><br>
+        <label><input type="radio" name="q11" value="B"> B. Colloid osmotic pressure in Bowman's space</label><br>
+        <label><input type="radio" name="q11" value="C"> C. Afferent arteriole resistance</label><br>
+        <label><input type="radio" name="q11" value="D"> D. Efferent arteriole resistance</label>
+      </div>
+      <!-- Q12 -->
+      <div class="question">
+        <p>12. What is the primary function of the sinoatrial (SA) node in the heart?</p>
+        <label><input type="radio" name="q12" value="A"> A. It acts as the pacemaker of the heart</label><br>
+        <label><input type="radio" name="q12" value="B"> B. It conducts impulses to the ventricles</label><br>
+        <label><input type="radio" name="q12" value="C"> C. It generates contraction force</label><br>
+        <label><input type="radio" name="q12" value="D"> D. It inhibits the atrioventricular node</label>
+      </div>
+    </div>
+
+    <!-- Biochemistry -->
+    <div class="subject">
+      <h2>Biochemistry</h2>
+      <!-- Q13 -->
+      <div class="question">
+        <p>13. Which enzyme complex is responsible for converting pyruvate to acetyl-CoA in the mitochondria?</p>
+        <label><input type="radio" name="q13" value="A"> A. Pyruvate carboxylase</label><br>
+        <label><input type="radio" name="q13" value="B"> B. Pyruvate dehydrogenase complex</label><br>
+        <label><input type="radio" name="q13" value="C"> C. Lactate dehydrogenase</label><br>
+        <label><input type="radio" name="q13" value="D"> D. Malate dehydrogenase</label>
+      </div>
+      <!-- Q14 -->
+      <div class="question">
+        <p>14. Tetrahydrobiopterin (BH4) is an essential cofactor for which enzyme?</p>
+        <label><input type="radio" name="q14" value="A"> A. Phenylalanine hydroxylase</label><br>
+        <label><input type="radio" name="q14" value="B"> B. Tyrosine hydroxylase</label><br>
+        <label><input type="radio" name="q14" value="C"> C. Tryptophan hydroxylase</label><br>
+        <label><input type="radio" name="q14" value="D"> D. All of the above</label>
+      </div>
+    </div>
+
+    <!-- ENT -->
+    <div class="subject">
+      <h2>ENT</h2>
+      <!-- Q15 -->
+      <div class="question">
+        <p>15. Which condition is the most common cause of sensorineural hearing loss in adults?</p>
+        <label><input type="radio" name="q15" value="A"> A. Otosclerosis</label><br>
+        <label><input type="radio" name="q15" value="B"> B. Presbycusis</label><br>
+        <label><input type="radio" name="q15" value="C"> C. Meniere's disease</label><br>
+        <label><input type="radio" name="q15" value="D"> D. Acoustic neuroma</label>
+      </div>
+      <!-- Q16 -->
+      <div class="question">
+        <p>16. What is the first-line antibiotic treatment for acute otitis media in children?</p>
+        <label><input type="radio" name="q16" value="A"> A. Amoxicillin</label><br>
+        <label><input type="radio" name="q16" value="B"> B. Ciprofloxacin</label><br>
+        <label><input type="radio" name="q16" value="C"> C. Azithromycin</label><br>
+        <label><input type="radio" name="q16" value="D"> D. Ceftriaxone</label>
+      </div>
+    </div>
+
+    <!-- Psychology -->
+    <div class="subject">
+      <h2>Psychology</h2>
+      <!-- Q17 -->
+      <div class="question">
+        <p>17. Which neurotransmitter is most closely linked with the pathophysiology of depression?</p>
+        <label><input type="radio" name="q17" value="A"> A. Dopamine</label><br>
+        <label><input type="radio" name="q17" value="B"> B. GABA</label><br>
+        <label><input type="radio" name="q17" value="C"> C. Serotonin</label><br>
+        <label><input type="radio" name="q17" value="D"> D. Glutamate</label>
+      </div>
+      <!-- Q18 -->
+      <div class="question">
+        <p>18. In cognitive behavioral therapy (CBT), the primary goal is to:</p>
+        <label><input type="radio" name="q18" value="A"> A. Uncover unconscious conflicts</label><br>
+        <label><input type="radio" name="q18" value="B"> B. Change maladaptive thought patterns</label><br>
+        <label><input type="radio" name="q18" value="C"> C. Analyze dreams in detail</label><br>
+        <label><input type="radio" name="q18" value="D"> D. Enhance self-actualization</label>
+      </div>
+    </div>
+
+    <!-- Dermatology -->
+    <div class="subject">
+      <h2>Dermatology</h2>
+      <!-- Q19 -->
+      <div class="question">
+        <p>19. Which of the following is considered the first-line treatment for mild to moderate acne vulgaris?</p>
+        <label><input type="radio" name="q19" value="A"> A. Oral isotretinoin</label><br>
+        <label><input type="radio" name="q19" value="B"> B. Topical retinoids</label><br>
+        <label><input type="radio" name="q19" value="C"> C. Systemic antibiotics</label><br>
+        <label><input type="radio" name="q19" value="D"> D. Topical corticosteroids</label>
+      </div>
+      <!-- Q20 -->
+      <div class="question">
+        <p>20. Psoriasis is classically characterized by which skin lesion?</p>
+        <label><input type="radio" name="q20" value="A"> A. Silvery scales over erythematous plaques</label><br>
+        <label><input type="radio" name="q20" value="B"> B. Vesicular lesions with oozing</label><br>
+        <label><input type="radio" name="q20" value="C"> C. Bullous lesions</label><br>
+        <label><input type="radio" name="q20" value="D"> D. Hyperpigmented macules</label>
+      </div>
+    </div>
+
+    <input type="button" value="Submit" onclick="gradeQuiz()">
+  </form>
+
+  <div id="result"></div>
+
+  <script>
+    // Answer key for the quiz
+    const answerKey = {
+      q1: "A",
+      q2: "C",
+      q3: "C",
+      q4: "A",
+      q5: "C",
+      q6: "B",
+      q7: "A",
+      q8: "A",
+      q9: "A",
+      q10: "D",
+      q11: "B",
+      q12: "A",
+      q13: "B",
+      q14: "D",
+      q15: "B",
+      q16: "A",
+      q17: "C",
+      q18: "B",
+      q19: "B",
+      q20: "A"
+    };
+
+    function gradeQuiz() {
+      let score = 0;
+      let total = Object.keys(answerKey).length;
+      
+      for (let q in answerKey) {
+        const radios = document.getElementsByName(q);
+        let answered = false;
+        for (let radio of radios) {
+          if (radio.checked) {
+            answered = true;
+            if (radio.value === answerKey[q]) {
+              score++;
+            }
+          }
+        }
+        // Optionally, you can provide feedback for unanswered questions.
+      }
+      
+      document.getElementById("result").innerHTML = `<h2>Your Score: ${score} out of ${total}</h2>`;
+    }
+  </script>
+</body>
+</html>
